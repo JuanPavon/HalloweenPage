@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>RightRoad</title>
+    <link rel="stylesheet" href="RightRoad.css" />
+    <script languaje="JavaScript" src="../JavaScript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../favicon.ico">
+</head>
+
+<body>
+    <p>You have found a graveyard!!</p>
+    <p>Be care. Someone is watching out for you...</p>
+    <p id="Mensaje">KILL HIM</p>
+
+    <div onmouseover="mostrar('Zombie')">
+
+    </div>
+
+    <audio id="AudioZombie">
+        <source src="../Sounds/Zombie.mp3" type="audio/mp3"/>
+    </audio>
+
+    <img id="Zombie" src="../Img/Zombie3.gif" onclick="sonar('AudioZombie'); ocultar('Zombie')"/>
+
+</body>
+
+</html>

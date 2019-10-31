@@ -1,0 +1,36 @@
+﻿body {
+    background-image: url(../Img/Cementerio5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Zombie {
+    visibility: hidden;
+    cursor: crosshair;
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+}
+
+div {
+    position: absolute;
+    height: 100px;
+    top: 650px;
+    left: 250px;
+    right: 100px;
+}
+
+p {
+    font-family: 'Shadows Into Light';
+    color: #7d0a01;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Mensaje {
+    font-family: 'Shadows Into Light', cursive;
+    color: red;
+    font-size: 75px;
+}

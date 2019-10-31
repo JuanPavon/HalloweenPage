@@ -1,0 +1,30 @@
+﻿body
+{
+    background-image: url(Img/Road3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: #9A9B29;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+    color: #A7A36F;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+#Left {
+    float: left;
+}
+
+#Right {
+    float: right;
+}
